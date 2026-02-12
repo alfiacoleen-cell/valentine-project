@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Valentine's Day ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Happy Valentine's Day ❤️</h1>
+
+        <!-- Letter Section -->
+        <div class="section">
+            <h2>Your Love Letter 💌</h2>
+            <textarea id="loveLetter" placeholder="Write your heartfelt message here..."></textarea>
+            <button onclick="saveLetter()">Save Letter</button>
+        </div>
+
+        <!-- Image Upload Section -->
+        <div class="section">
+            <h2>Add Your Favorite Pictures 🖼</h2>
+            <input type="file" id="imageUpload" accept="image/*" multiple>
+            <div id="gallery"></div>
+        </div>
+
+        <!-- Music Section -->
+        <div class="section">
+            <h2>Add Your Song 🎵</h2>
+            <input type="file" id="musicUpload" accept="audio/*">
+            <audio id="audioPlayer" controls></audio>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
